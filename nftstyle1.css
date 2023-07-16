@@ -1,0 +1,438 @@
+body{   
+    background: #10E819;
+}
+
+.main-container{
+   width: inherit;
+   padding-top: 20px ;
+   padding-bottom: 40px;
+   margin: 20px;
+   border: 1px solid black;
+   border-radius: 15px;
+   background-color: black;
+}
+
+.header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    width: inherit;
+    padding-left: 20px;
+}
+
+.navigation-bar{
+    padding-top: 30px;
+    width: 50%;
+    margin-left: 30px;
+}
+
+
+.header-link{
+    color: white;
+    text-decoration-line: none;
+    margin-right: 50px;
+    font-size: 18px;
+  
+  
+}
+
+.header-link:hover{
+ color: #10E819;
+ 
+}
+
+.header-number{
+    color: blue;
+}
+
+.header-link-signup{
+    color: black;
+    background: #10E819;
+    border: 1px solid #10E819;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-decoration-line: none;
+    transition: 0.4s;
+}
+
+.header-link-signup:hover{
+    color: white;
+}
+
+.main-content{
+    color: white;
+    display: flex;
+    
+}
+
+.text-content{
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.nft{
+   
+    animation-name: nftss;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+              }  
+
+@keyframes nftss  {
+
+0% {
+color: #10E819;
+}
+
+
+50% {
+color: blue;
+}
+
+100% {
+color: red;
+}
+
+}
+
+
+.welcome{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+    font-weight: 400;
+    font-size: 17px;
+   
+}
+
+.button:hover{
+    background-color: #10E819;
+    color: black;
+    border-color: #10E819;
+}
+
+
+
+
+.profile{
+    display: flex;
+    margin-top: 10px;
+}
+
+.arts{
+    border-right: 1px solid white;
+    padding-right: 15px;
+  
+}
+
+.auctions{
+    border-right: 1px solid white;
+    padding-right: 15px;
+    padding-left: 12px;
+}
+
+.artists{
+   
+    padding-right: 15px;
+    padding-left: 12px;
+}
+
+.art{
+    font-size: 40px;
+}
+
+.auction{
+    font-size: 40px;
+}
+
+.artist{
+    font-size: 40px;
+}
+
+.bigger-text{
+    font-size: 50px;
+}
+
+
+.image-content{
+    display: flex;
+    width: 50%;
+    margin-left: 30px;
+    
+}
+
+.hidden{
+    display: none;
+}
+
+.nft-cont1{
+    position: relative;
+    margin-top: 110px;
+}
+
+.nft-cont1 img{
+    position: relative;
+}
+
+.nft-owner1{
+    position: absolute;
+    bottom: 30%;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 3.4px 15px 1px 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 17px;
+
+    background: linear-gradient(103.12deg, rgba(255, 255, 255, 0.1) -26.95%, rgba(255, 255, 255, 0.390625) 157.08%, rgba(255, 255, 255, 0.4) 163.02%);
+    box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+
+}
+
+
+
+.nft-owner1{
+ 
+    animation-name: borderColorPalette;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+              }  
+
+@keyframes borderColorPalette {
+0% {
+border-color: blue;
+}
+
+25% {
+border-color: cyan;
+}
+
+50% {
+border-color: rgba(255, 255, 0, 0.174);;
+}
+75% {
+border-color:  lightblue;
+}
+100% {
+border-color: #10E819;
+}
+
+}
+
+.nft-owner-image{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid white; 
+    background-image: url("C:/Users/User/Desktop/STEVO/NFT  Website/NFT Website/images/Ellipse 4 (1).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bored-ape{
+    padding-left: 10px;
+}
+
+.justin{
+    line-height: 0px;
+}
+
+
+.nft-cont2{
+    margin-top: 20px;
+    margin-left: -70px;
+    z-index: 3;
+  
+    
+}
+
+.nft-owner2{
+    position: absolute;
+    bottom: 3%;
+    border: 5px solid blue;
+    border-radius: 20px;
+    padding:  15px 60px 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 23px;
+    
+    background: linear-gradient(103.12deg, rgba(255, 255, 255, 0.1) -26.95%, rgba(255, 255, 255, 0.390625) 157.08%, rgba(255, 255, 255, 0.4) 163.02%);
+    box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+
+}
+
+.nft-owner2{
+ 
+        animation-name: backgroundColorPalette;
+        animation-duration: 2.5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: linear;
+                  }  
+
+@keyframes backgroundColorPalette {
+0% {
+border-color: blue;
+}
+
+25% {
+    border-color: cyan;
+}
+
+50% {
+    border-color: rgba(255, 255, 0, 0.174);
+}
+75% {
+    border-color:  lightblue;
+}
+100% {
+    border-color: #10E819;
+}
+
+}
+
+
+
+.nft-owner-image2{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid white; 
+    background-image: url("C:/Users/User/Desktop/STEVO/NFT  Website/NFT Website/images/Ellipse 4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.quantum-ape{
+    padding-left: 20px;
+}
+
+.aver{
+    line-height: 10px;
+}
+
+
+.nft-cont3{
+    margin-top: 110px;
+    margin-left: -70px;
+    z-index: 1;
+    
+}
+
+.nft-owner3{
+    position: absolute;
+    bottom: 15%;
+    border: 2.4px solid white;
+    border-radius: 20px;
+    padding: 3.4px 15px 1px 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+
+    background: linear-gradient(103.12deg, rgba(255, 255, 255, 0.1) -26.95%, rgba(255, 255, 255, 0.390625) 157.08%, rgba(255, 255, 255, 0.4) 163.02%);
+    box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+
+}
+
+
+
+.nft-owner3{
+ 
+    animation-name: borderColorPalette;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+              }  
+
+@keyframes borderColorPalette {
+0% {
+border-color: blue;
+}
+
+25% {
+border-color: cyan;
+}
+
+50% {
+border-color: yellow;
+}
+75% {
+border-color:  lightblue;
+}
+100% {
+border-color: #10E819;
+}
+
+}
+
+
+
+.nft-owner-image3{
+border-radius: 50%;
+width: 35px;
+height: 35px;
+padding: 10px;
+margin-top: 10px;
+border: 1px solid white; 
+background-image: url("C:/Users/User/Desktop/STEVO/NFT  Website/NFT Website/images/Ellipse 4 (1).jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.quantum-ape{
+padding-left: 20px;
+}
+
+.aver{
+line-height: 10px;
+}
+
+
+.nft-cont3{
+margin-top: 110px;
+margin-left: -70px;
+z-index: 1;
+
+}
+
+#eth{
+    color: #10E819;
+    font-weight: 400;
+}
+
+.exchanges{
+    text-align: center;
+    margin-top: 60px;
+   
+}
+
+.exchange{
+    padding-left: 45px;
+   
+}
+

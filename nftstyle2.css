@@ -1,0 +1,133 @@
+@media screen and (max-width: 1230px){
+
+
+    .navigation-bar{
+        display: none;
+    }
+
+
+    .main-content{
+        flex: none;
+        display: block;
+    }
+
+   .main-container{
+     margin: 10px;
+     border-radius: 30px;
+     width: 100%;
+   }
+
+   .image-content{
+    display: block;
+    width: 65%;
+   }
+
+   .nft-cont1{
+    margin-left: 20%;
+   }
+
+
+  
+
+.nft-owner1{
+  bottom: 10%;
+  padding-left: 0px;
+}
+
+
+.nft-cont2{
+  margin-top: -50px;
+  margin-left: 10px;
+  z-index: 4;
+  margin-bottom: -50px;
+  position: relative;
+}
+
+.nft-owner2{
+  margin-bottom: 10px;
+  margin-left: 6%;
+
+}
+
+.nft-cont3{
+   margin-top: 0;
+   margin-left: 20%;
+   position: relative;
+}
+
+.nft-owner3{
+  margin-left: 15px;
+  padding-left: 0;
+  bottom: 20px;
+}
+
+   .exchanges{
+     left: 0;
+     display: flex;
+  }
+
+.exchange{
+  width: 25%;
+    left: 0;
+   
+  }
+
+  .exchange img{
+    width: 78%;
+  }
+
+  .welcome p{
+    line-height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+}
+
+
+
+
+
+@media screen and (max-width: 500px ){
+
+.nft-cont1{
+  position: relative;
+  margin-top: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.nft-owner1{
+  margin-left: 30px;
+}
+
+.bored-ape{
+  text-align: left;
+}
+
+.nft-cont2{
+  
+  display: none;
+}
+
+.nft-cont3{
+  margin-top: 40px;
+  position: relative;
+  text-align: 100%;
+  width: 100%;
+  margin-left: 26%;
+}
+
+.hidden{
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+  
+}
