@@ -1,4 +1,4 @@
-@media screen and (max-width: 1230px){
+@media screen and (max-width: 1280px){
 
 
     .navigation-bar{
@@ -81,6 +81,43 @@
     font-family: 'Times New Roman', Times, serif;
   }
 
+
+  /* 8888888888888888888888888888 */
+
+  .nft-cont1{
+    position: relative;
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .nft-owner1{
+    margin-left: 33%;
+
+  }
+  
+  .bored-ape{
+    text-align: left;
+  }
+  
+  .nft-cont2{
+    
+    display: none;
+  }
+  
+  .nft-cont3{
+    margin-top: 40px;
+    position: relative;
+    text-align: 100%;
+    width: 100%;
+    margin-left: 26%;
+  }
+  
+  .hidden{
+    display: block;
+  }
+  
+
 }
 
 
@@ -123,11 +160,37 @@
 
 
 
-
-
-
-
-
-
   
 }
+
+
+@media screen and (max-width: 340px ){
+
+
+.button{
+  padding: 5px 12px;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
