@@ -166,7 +166,9 @@
 
 @media screen and (max-width: 360px ){
 
-
+.buttons{
+    display:block;
+}
 .button{
     display: block;
   padding: 5px 10px;
